@@ -6,10 +6,40 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura&display=swap"
+      rel="stylesheet"
+    />
 </head>
 
 <body>
-  Hello world
+   <div class="boxContainer">
+      <div class="boxup">
+        <button class="reset">RESET</button>
+        <p class="numberbtwn">Between 1-20</p>
+        <h1 class="title">Guess My Number!</h1>
+        <div class="qmark">?</div>
+      </div>
+
+      <div class="boxdown">
+        <div class="left">
+          <input class="guess" type="number" />
+          <br />
+          <button class="check">Check!</button>
+        </div>
+
+        <div class="right">
+          <p class="message">Start Guessing...</p>
+          <p>🔥🔥 Score:<span class="score"> </span></p>
+          <p>🏆🏆 Highscore:<span class="highScore"> </span></p>
+        </div>
+      </div>
+    </div>
+ 
+
+  
   <script src="script.js"></script>
 
  <!--
